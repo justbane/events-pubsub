@@ -13,7 +13,7 @@ var events = {
           this.events[eventName].splice(i, 1);
           break;
         }
-      };
+      }
     }
   },
   emit: function (eventName, data) {
